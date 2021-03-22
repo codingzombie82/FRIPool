@@ -375,16 +375,6 @@ contract TokenRewardPool is ITokenRewardPool{
 
 contract DreamStakePool is Ownable, TokenRewardPool{
     
-    // string private constant _name = "PoolName";
-    // uint256 private constant _rate = 20; //%
-    // address private constant _rewardToken = ""; //리워드 풀주소
-    // address private constant _stakeToken = ""; //스테이킹하는 토큰
-    // address private constant _teamPool = ""; //팀 풀 주소
-    // constructor () TokenRewardPool(_rate, _rewardToken, _stakeToken, _teamPool) onlyOwner public{
-    //     //extend to do
-    // }
-
-////////////// TesetNet /////////////////
     string private name = "PoolName";
        
     constructor (   
