@@ -3,7 +3,7 @@ import "../node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "../node_modules/@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
 import "./Ownable.sol";
 
-contract Dream is ERC20, Ownable, ERC20Detailed {
+contract FRI is ERC20, Ownable, ERC20Detailed {
 
     string private constant _name = "Food Research Institute for Mankind";
     string private constant _symbol = "FRI";
